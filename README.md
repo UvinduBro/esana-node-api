@@ -55,4 +55,4 @@ Output:
 [MIT](/LICENSE)
 
 ## Disclaimer
-`esana - එසැණ ` name, we have nothing to do with the website officially. If any complains please contact via dev-a@sisula.ml
+`esana - එසැණ ` name, we have nothing to do with the website officially. If any complains please contact via srwusc123@gmail.com
