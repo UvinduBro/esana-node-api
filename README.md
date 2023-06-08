@@ -4,7 +4,6 @@
 
 `⭕️ This project is for educational purposes only!⭕️ `  <br>
 `⭕️ The user shall take full responsibility for the errors such as changing the information and changing the name of the company. ⭕️` <br>
-`⭕️ "Fetch All" has been temporarily removed ⭕️`
 
 `Base Site -:` https://helakuru.lk/esana
 
