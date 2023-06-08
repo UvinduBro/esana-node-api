@@ -33,9 +33,8 @@ const {Esana} = require("esana-node-api")
 
 async function esana_run(){
 
-const esana =  new Esana()
-await esana.verify('Enter Your Passcode') 
-const esana_data = await esana.esana_latest()
+await Esana.verify('Enter Your Passcode') 
+const esana_data = await Esana.fetch_news_data()
 console.log(esana_data)
 
 }
@@ -46,26 +45,16 @@ Output:
 
 ```js
 {
-  news: {
-    helakuru: {
-      title: 'මුදල් රාජ්‍ය ඇමති සහ IMF නියෝජ්‍ය කළමනාකාර අධ්‍යක්‍ෂ අතර හමුවක්',
-      description: 'මුදල් රාජ්‍ය අමාත්‍ය ෂෙහාන් සේමසිංහ සහ ජාත්‍යන්තර මූල්‍ය අරමුදලේ නියෝජ්‍ය කළමනාකාර අධ්‍යක්‍ෂ කෙන්ජි ඔකමුරා සමඟ සාකච්ඡාවක් පවත්වා තිබෙනව
-ා.\n' +
-        '\n' +
-        'එහිදී  ආර්ථිකය ස්ථාවර කිරීම සඳහා ශ්‍රී ලංකාව විසින් ක්‍රියාත්මක කර ඇති ආර්ථික ප්‍රතිසංස්කරණවල ප්‍රගතිය පිළිබඳව සාකච්ඡා කළ බවයි Twitter පණිවිඩයක් න
-ිකුත් කරමින් මුදල් රාජ්‍ය අමාත්‍ය ෂෙහාන් සේමසිංහ සඳහන් කළේ.\n' +
-        '\n' +
-        'ජාත්‍යන්තර මූල්‍ය අරමුදලේ සහ ලෝක බැංකුවේ වාර්ෂික සම්මේලනයට සහභාගී වී සිටින අතරතුර මෙම හමුව සිදුව තිබෙනවා.',
-      thumb: 'https://news.bhashalanka.com/image-library/shehan-okamura.jpg',
-      url: 'https://www.helakuru.lk/esana/news/93795',
-      data: '2022-10-16 16:02:40',
-      lang: 'Sinhala'
-      media: ['http://example.jpg', 'http://example2.jpg', 'http://example3.jpg']]
-
-      //If Media Empty
-
-      media: [{status: false}]
-    }
+  status: 200,
+  latest: true,
+  esana: {
+    news_id: 98376,
+    title: 'දූෂණ විරෝධී පනත් කෙටුම්පත ජුනි 21දා විවාදයට ගැනීමට තීරණය කෙරේ',
+    description: 'දූෂණ විරෝධී පනත් කෙටුම්පත ජුනි 21දා විවාදයට ගැනීමට තීරණය කර තිබෙනවා.',
+    thumbnail: 'https://helakuru.sgp1.cdn.digitaloceanspaces.com/esana/images/lib/parliment-new-01[1].jpg',
+    url: 'https://www.helakuru.lk/esana/98376',
+    date: '2023-06-08 16:03:06',
+    media: []
   }
 }
 ```
