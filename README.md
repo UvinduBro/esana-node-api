@@ -1,6 +1,6 @@
 <img align="center" src="https://www.helakuru.lk/assets/images/icon.png" height="100px" width="100px">
 <h1 align="center"><b> Helakuru.lk | | එසැණ </b></h1>
-<h3 align="center"><b>⭕️ API (Unofficial) ⭕️<br><br> <a href="https://sisula.ml/" target="_blank">SISULA WELGAMAGE</a> | | <a href="https://ravindumanoj.ml/" target="_blank">RAVINDU MANOJ</a></b></h3><br>
+<h3 align="center"><b>⭕️ API (Unofficial) ⭕️<br><br> <a href="https://sisula.ml/" target="_blank">SISULA WELGAMAGE</a></b></h3><br>
 
 `⭕️ This project is for educational purposes only!⭕️ `  <br>
 `⭕️ The user shall take full responsibility for the errors such as changing the information and changing the name of the company. ⭕️` <br>
@@ -18,15 +18,7 @@ $ yarn add esana-node-api
 ```
 <br>
 
-> QUENSTIONS ?
-
-<br>
-
-- [x] <b>  </b>
-
-<br>
-
-## Usage - Fetch Latest News Esana / එසැණ News ලබා ගැනීමට.
+## Usage - නවතම එසැණ  News ලබාගැනීමට 
 
 ```js
 const {Esana} = require("esana-node-api")
